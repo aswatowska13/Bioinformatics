@@ -1,3 +1,8 @@
-$("button").click(function(){
-	console.log("greeting")
+ $('.button').click(function() {
+	$.ajax({
+	  	type: "POST",
+		url: "db.php",
+	}).done(function( msg ) {
+	  	alert( msg );
+	});    
 });
