@@ -1,7 +1,7 @@
 function connectDatabase(){
 	 $.ajax({
 			 type: "POST",
-		 url: "db.php",
+		 url: "database/db.php",
 	 }).done(function( msg ) {
 			 alert( msg );
 	 });
