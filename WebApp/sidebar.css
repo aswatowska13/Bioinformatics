@@ -1,7 +1,16 @@
+.sidebar div{
+  background-color: #45ada8;
+  border-radius: 1.3em;
+}
+
+.sidebar div:hover{
+  background-color: #43a7a2;
+}
+
 .function1{
   grid-row: 1;
   grid-column: 1;
-  background-color: #69d2cd;
+
 }
 
 .function2{
@@ -25,5 +34,4 @@
 .function5{
   grid-row: 5;
   grid-column: 1;
-  background-color: #69d2cd;
 }
