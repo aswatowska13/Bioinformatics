@@ -1,0 +1,31 @@
+.NavBar div{
+  background-color: #45ada8;
+  border-radius: 1.5em;
+}
+
+.NavBar div:hover{
+  background-color: #43a7a2;
+}
+
+
+.navBarButton1{
+  grid-column: 1/2;
+  border-radius: 2em 0 0 2em;
+}
+
+.navBarButton2{
+  grid-column: 2/3;
+}
+
+.navBarButton3{
+  grid-column: 3/4;
+}
+
+.navBarButton4{
+  grid-column: 4/5;
+}
+
+.navBarButton5{
+  grid-column: 5/6;
+  border-radius: 0 2em 2em 0;
+}
