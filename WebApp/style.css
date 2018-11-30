@@ -56,6 +56,9 @@
   grid-column: 2/12;
   grid-row: 18/20;
   background-color: #45ada8;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
 }
 
 /*

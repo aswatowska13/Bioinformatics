@@ -1,10 +1,15 @@
 .NavBar div{
   background-color: #45ada8;
   border-radius: 1.3em;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
 }
 
 .NavBar div:hover{
   background-color: #43a7a2;
+
 }
 
 
